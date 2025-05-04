@@ -2,7 +2,7 @@
 
 context('Actions', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:8080/commands/actions')
+    cy.visit('https://example.cypress.io/commands/actions')
   })
 
   // https://on.cypress.io/interacting-with-elements
@@ -281,6 +281,7 @@ context('Actions', () => {
     cy.scrollTo('bottom')
 
     cy.get('#scrollable-horizontal').scrollTo('right')
+    cy.screenshot();
 
     // or you can scroll to a specific coordinate:
     // (x axis, y axis) in pixels

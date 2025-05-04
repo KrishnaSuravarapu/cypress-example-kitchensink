@@ -1,0 +1,1159 @@
+{
+  "build_id": "cc9c992859f64a2898a16551bd90ab8d",
+  "build_name": "storage_build",
+  "project_name": "storage_project",
+  "build_url": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d",
+  "public_build_url": "",
+  "build_duration": {
+    "started_at": "2025-02-14T10:27:53.000Z",
+    "total_duration": 0,
+    "setup_time": 0,
+    "test_run_time": 0,
+    "misc_time": 0
+  },
+  "cypress_version": "13.10.0",
+  "cli_version": "BStack-Cypress-CLI/1.32.2 (arm64/darwin/24.1.0)",
+  "rows": {
+    "spies_stubs_clocks.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:31:34.873Z",
+            "duration": 10.88,
+            "total_tests": 7,
+            "passed": 7,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/184a7aca-c161-4735-83db-3675f773e4e9_9421",
+          "public_url": "",
+          "tests": [
+            {
+              "name": "cy.spy() - wrap a method in a spy",
+              "status": "passed",
+              "duration": 2.2
+            },
+            {
+              "name": "cy.spy() retries until assertions pass",
+              "status": "passed",
+              "duration": 3.08
+            },
+            {
+              "name": "cy.stub() - create a stub and/or replace a function with stub",
+              "status": "passed",
+              "duration": 1.46
+            },
+            {
+              "name": "cy.clock() - control time in the browser",
+              "status": "passed",
+              "duration": 1.5
+            },
+            {
+              "name": "cy.tick() - move time in the browser",
+              "status": "passed",
+              "duration": 1.48
+            },
+            {
+              "name": "cy.stub() matches depending on arguments",
+              "status": "passed",
+              "duration": 0.51
+            },
+            {
+              "name": "matches call arguments using Sinon matchers",
+              "status": "passed",
+              "duration": 0.46
+            }
+          ]
+        }
+      ]
+    },
+    "storage.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:31:50.958Z",
+            "duration": 8.092,
+            "total_tests": 5,
+            "passed": 5,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/184a7aca-c161-4735-83db-3675f773e4e9_9422",
+          "public_url": "",
+          "tests": [
+            {
+              "name": "cy.clearLocalStorage() - clear all data in localStorage for the current origin",
+              "status": "passed",
+              "duration": 1.83
+            },
+            {
+              "name": "cy.getAllLocalStorage() - get all data in localStorage for all origins",
+              "status": "passed",
+              "duration": 1.41
+            },
+            {
+              "name": "cy.clearAllLocalStorage() - clear all data in localStorage for all origins",
+              "status": "passed",
+              "duration": 1.48
+            },
+            {
+              "name": "cy.getAllSessionStorage() - get all data in sessionStorage for all origins",
+              "status": "passed",
+              "duration": 1.49
+            },
+            {
+              "name": "cy.clearAllSessionStorage() - clear all data in sessionStorage for all origins",
+              "status": "passed",
+              "duration": 1.51
+            }
+          ]
+        }
+      ]
+    },
+    "traversal.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:32:04.162Z",
+            "duration": 23.812,
+            "total_tests": 18,
+            "passed": 18,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/184a7aca-c161-4735-83db-3675f773e4e9_9423",
+          "public_url": "",
+          "tests": [
+            {
+              "name": ".children() - get child DOM elements",
+              "status": "passed",
+              "duration": 1.71
+            },
+            {
+              "name": ".closest() - get closest ancestor DOM element",
+              "status": "passed",
+              "duration": 1.33
+            },
+            {
+              "name": ".eq() - get a DOM element at a specific index",
+              "status": "passed",
+              "duration": 1.3
+            },
+            {
+              "name": ".filter() - get DOM elements that match the selector",
+              "status": "passed",
+              "duration": 1.33
+            },
+            {
+              "name": ".find() - get descendant DOM elements of the selector",
+              "status": "passed",
+              "duration": 1.32
+            },
+            {
+              "name": ".first() - get first DOM element",
+              "status": "passed",
+              "duration": 1.31
+            },
+            {
+              "name": ".last() - get last DOM element",
+              "status": "passed",
+              "duration": 1.27
+            },
+            {
+              "name": ".next() - get next sibling DOM element",
+              "status": "passed",
+              "duration": 1.21
+            },
+            {
+              "name": ".nextAll() - get all next sibling DOM elements",
+              "status": "passed",
+              "duration": 1.3
+            },
+            {
+              "name": ".nextUntil() - get next sibling DOM elements until next el",
+              "status": "passed",
+              "duration": 1.27
+            },
+            {
+              "name": ".not() - remove DOM elements from set of DOM elements",
+              "status": "passed",
+              "duration": 1.1
+            },
+            {
+              "name": ".parent() - get parent DOM element from DOM elements",
+              "status": "passed",
+              "duration": 1.31
+            },
+            {
+              "name": ".parents() - get parent DOM elements from DOM elements",
+              "status": "passed",
+              "duration": 1.21
+            },
+            {
+              "name": ".parentsUntil() - get parent DOM elements from DOM elements until el",
+              "status": "passed",
+              "duration": 1.2
+            },
+            {
+              "name": ".prev() - get previous sibling DOM element",
+              "status": "passed",
+              "duration": 1.33
+            },
+            {
+              "name": ".prevAll() - get all previous sibling DOM elements",
+              "status": "passed",
+              "duration": 1.22
+            },
+            {
+              "name": ".prevUntil() - get all previous sibling DOM elements until el",
+              "status": "passed",
+              "duration": 1.17
+            },
+            {
+              "name": ".siblings() - get all sibling DOM elements",
+              "status": "passed",
+              "duration": 1.19
+            }
+          ]
+        }
+      ]
+    },
+    "utilities.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:32:33.155Z",
+            "duration": 8.546,
+            "total_tests": 5,
+            "passed": 5,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/184a7aca-c161-4735-83db-3675f773e4e9_9424",
+          "public_url": "",
+          "tests": [
+            {
+              "name": "Cypress._ - call a lodash method",
+              "status": "passed",
+              "duration": 2.4
+            },
+            {
+              "name": "Cypress.$ - call a jQuery method",
+              "status": "passed",
+              "duration": 1.33
+            },
+            {
+              "name": "Cypress.Blob - blob utilities and base64 string conversion",
+              "status": "passed",
+              "duration": 1.53
+            },
+            {
+              "name": "Cypress.minimatch - test out glob patterns against strings",
+              "status": "passed",
+              "duration": 1.01
+            },
+            {
+              "name": "Cypress.Promise - instantiate a bluebird promise",
+              "status": "passed",
+              "duration": 2.03
+            }
+          ]
+        }
+      ]
+    },
+    "viewport.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:32:46.763Z",
+            "duration": 4.789,
+            "total_tests": 1,
+            "passed": 1,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/184a7aca-c161-4735-83db-3675f773e4e9_9425",
+          "public_url": "",
+          "tests": [
+            {
+              "name": "cy.viewport() - set the viewport size and dimension",
+              "status": "passed",
+              "duration": 4.7
+            }
+          ]
+        }
+      ]
+    },
+    "waiting.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:32:56.364Z",
+            "duration": 8.621,
+            "total_tests": 2,
+            "passed": 2,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/184a7aca-c161-4735-83db-3675f773e4e9_9426",
+          "public_url": "",
+          "tests": [
+            {
+              "name": "cy.wait() - wait for a specific amount of time",
+              "status": "passed",
+              "duration": 6.44
+            },
+            {
+              "name": "cy.wait() - wait for a specific route",
+              "status": "passed",
+              "duration": 2.02
+            }
+          ]
+        }
+      ]
+    },
+    "files.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:28:36.190Z",
+            "duration": 9.777,
+            "total_tests": 4,
+            "passed": 4,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/4a6e21a8-23d4-46d7-a1ea-495d4028b24f_9427",
+          "public_url": "",
+          "tests": [
+            {
+              "name": "cy.fixture() - load a fixture",
+              "status": "passed",
+              "duration": 3.21
+            },
+            {
+              "name": "cy.fixture() or require - load a fixture",
+              "status": "passed",
+              "duration": 1.63
+            },
+            {
+              "name": "cy.readFile() - read file contents",
+              "status": "passed",
+              "duration": 1.79
+            },
+            {
+              "name": "cy.writeFile() - write to a file",
+              "status": "passed",
+              "duration": 2.89
+            }
+          ]
+        }
+      ]
+    },
+    "location.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:28:51.152Z",
+            "duration": 8.923,
+            "total_tests": 3,
+            "passed": 2,
+            "failed": 1,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "failed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/4a6e21a8-23d4-46d7-a1ea-495d4028b24f_9428",
+          "public_url": "",
+          "tests": [
+            {
+              "name": "cy.hash() - get the current URL hash",
+              "status": "passed",
+              "duration": 1.81
+            },
+            {
+              "name": "cy.location() - get window.location",
+              "status": "failed",
+              "duration": 5.87
+            },
+            {
+              "name": "cy.url() - get the current URL",
+              "status": "passed",
+              "duration": 1.12
+            }
+          ]
+        }
+      ]
+    },
+    "misc.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:29:05.265Z",
+            "duration": 11.132,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/4a6e21a8-23d4-46d7-a1ea-495d4028b24f_9429",
+          "public_url": "",
+          "tests": [
+            {
+              "name": ".end() - end the command chain",
+              "status": "passed",
+              "duration": 1.9
+            },
+            {
+              "name": "cy.exec() - execute a system command",
+              "status": "passed",
+              "duration": 2.1
+            },
+            {
+              "name": "cy.focused() - get the DOM element that has focus",
+              "status": "passed",
+              "duration": 1.3
+            },
+            {
+              "name": "cy.wrap() - wrap an object",
+              "status": "passed",
+              "duration": 1.29
+            },
+            {
+              "name": "cy.screenshot() - take a screenshot",
+              "status": "passed",
+              "duration": 3.05
+            },
+            {
+              "name": "Cypress.Screenshot.defaults() - change default config of screenshots",
+              "status": "passed",
+              "duration": 1.26
+            }
+          ]
+        }
+      ]
+    },
+    "navigation.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:29:21.465Z",
+            "duration": 11.596,
+            "total_tests": 3,
+            "passed": 3,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/4a6e21a8-23d4-46d7-a1ea-495d4028b24f_9430",
+          "public_url": "",
+          "tests": [
+            {
+              "name": "cy.go() - go back or forward in the browser's history",
+              "status": "passed",
+              "duration": 5.41
+            },
+            {
+              "name": "cy.reload() - reload the page",
+              "status": "passed",
+              "duration": 3.31
+            },
+            {
+              "name": "cy.visit() - visit a remote url",
+              "status": "passed",
+              "duration": 2.71
+            }
+          ]
+        }
+      ]
+    },
+    "network_requests.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:29:37.881Z",
+            "duration": 14.696,
+            "total_tests": 6,
+            "passed": 6,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/4a6e21a8-23d4-46d7-a1ea-495d4028b24f_9431",
+          "public_url": "",
+          "tests": [
+            {
+              "name": "cy.request() - make an XHR request",
+              "status": "passed",
+              "duration": 3.19
+            },
+            {
+              "name": "cy.request() - verify response using BDD syntax",
+              "status": "passed",
+              "duration": 2.39
+            },
+            {
+              "name": "cy.request() with query parameters",
+              "status": "passed",
+              "duration": 1.6
+            },
+            {
+              "name": "cy.request() - pass result to the second request",
+              "status": "passed",
+              "duration": 1.81
+            },
+            {
+              "name": "cy.request() - save response in the shared test context",
+              "status": "passed",
+              "duration": 1.72
+            },
+            {
+              "name": "cy.intercept() - route responses to matching requests",
+              "status": "passed",
+              "duration": 3.68
+            }
+          ]
+        }
+      ]
+    },
+    "querying.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:29:57.584Z",
+            "duration": 7.908,
+            "total_tests": 5,
+            "passed": 5,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/4a6e21a8-23d4-46d7-a1ea-495d4028b24f_9432",
+          "public_url": "",
+          "tests": [
+            {
+              "name": "cy.get() - query DOM elements",
+              "status": "passed",
+              "duration": 1.62
+            },
+            {
+              "name": "cy.contains() - query DOM elements with matching content",
+              "status": "passed",
+              "duration": 1.5
+            },
+            {
+              "name": ".within() - query DOM elements within a specific element",
+              "status": "passed",
+              "duration": 1.32
+            },
+            {
+              "name": "cy.root() - query the root DOM element",
+              "status": "passed",
+              "duration": 1.21
+            },
+            {
+              "name": "best practices - selecting elements",
+              "status": "passed",
+              "duration": 2.01
+            }
+          ]
+        }
+      ]
+    },
+    "actions.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:30:40.762Z",
+            "duration": 46.29,
+            "total_tests": 14,
+            "passed": 13,
+            "failed": 1,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "failed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/9bed0ce4-c497-450d-b40c-f8f01d8bbcb7_9433",
+          "public_url": "",
+          "tests": [
+            {
+              "name": ".type() - type into a DOM element",
+              "status": "passed",
+              "duration": 6.89
+            },
+            {
+              "name": ".focus() - focus on a DOM element",
+              "status": "passed",
+              "duration": 1.79
+            },
+            {
+              "name": ".blur() - blur off a DOM element",
+              "status": "passed",
+              "duration": 2.09
+            },
+            {
+              "name": ".clear() - clears an input or textarea element",
+              "status": "passed",
+              "duration": 2.31
+            },
+            {
+              "name": ".submit() - submit a form",
+              "status": "passed",
+              "duration": 1.78
+            },
+            {
+              "name": ".click() - click on a DOM element",
+              "status": "failed",
+              "duration": 8.89
+            },
+            {
+              "name": ".dblclick() - double click on a DOM element",
+              "status": "passed",
+              "duration": 1.7
+            },
+            {
+              "name": ".rightclick() - right click on a DOM element",
+              "status": "passed",
+              "duration": 1.63
+            },
+            {
+              "name": ".check() - check a checkbox or radio element",
+              "status": "passed",
+              "duration": 2.4
+            },
+            {
+              "name": ".uncheck() - uncheck a checkbox element",
+              "status": "passed",
+              "duration": 2.2
+            },
+            {
+              "name": ".select() - select an option in a <select> element",
+              "status": "passed",
+              "duration": 2.4
+            },
+            {
+              "name": ".scrollIntoView() - scroll an element into view",
+              "status": "passed",
+              "duration": 1.49
+            },
+            {
+              "name": ".trigger() - trigger an event on a DOM element",
+              "status": "passed",
+              "duration": 1.39
+            },
+            {
+              "name": "cy.scrollTo() - scroll the window or element to a position",
+              "status": "passed",
+              "duration": 8.82
+            }
+          ]
+        }
+      ]
+    },
+    "aliasing.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:31:32.727Z",
+            "duration": 4.897,
+            "total_tests": 2,
+            "passed": 2,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/9bed0ce4-c497-450d-b40c-f8f01d8bbcb7_9434",
+          "public_url": "",
+          "tests": [
+            {
+              "name": ".as() - alias a DOM element for later use",
+              "status": "passed",
+              "duration": 1.91
+            },
+            {
+              "name": ".as() - alias a route for later use",
+              "status": "passed",
+              "duration": 2.87
+            }
+          ]
+        }
+      ]
+    },
+    "assertions.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:31:42.733Z",
+            "duration": 13.723,
+            "total_tests": 9,
+            "passed": 9,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/9bed0ce4-c497-450d-b40c-f8f01d8bbcb7_9435",
+          "public_url": "",
+          "tests": [
+            {
+              "name": ".should() - make an assertion about the current subject",
+              "status": "passed",
+              "duration": 1.58
+            },
+            {
+              "name": ".and() - chain multiple assertions together",
+              "status": "passed",
+              "duration": 1.28
+            },
+            {
+              "name": "expect - make an assertion about a specified subject",
+              "status": "passed",
+              "duration": 1.29
+            },
+            {
+              "name": "pass your own callback function to should()",
+              "status": "passed",
+              "duration": 1.5
+            },
+            {
+              "name": "finds element by class name regex",
+              "status": "passed",
+              "duration": 1.38
+            },
+            {
+              "name": "can throw any error",
+              "status": "passed",
+              "duration": 1.31
+            },
+            {
+              "name": "matches unknown text between two elements",
+              "status": "passed",
+              "duration": 1.3
+            },
+            {
+              "name": "assert - assert shape of an object",
+              "status": "passed",
+              "duration": 1.1
+            },
+            {
+              "name": "retries the should callback until assertions pass",
+              "status": "passed",
+              "duration": 2.62
+            }
+          ]
+        }
+      ]
+    },
+    "connectors.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:32:01.345Z",
+            "duration": 9.993,
+            "total_tests": 8,
+            "passed": 8,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/9bed0ce4-c497-450d-b40c-f8f01d8bbcb7_9436",
+          "public_url": "",
+          "tests": [
+            {
+              "name": ".each() - iterate over an array of elements",
+              "status": "passed",
+              "duration": 1.5
+            },
+            {
+              "name": ".its() - get properties on the current subject",
+              "status": "passed",
+              "duration": 1.09
+            },
+            {
+              "name": ".invoke() - invoke a function on the current subject",
+              "status": "passed",
+              "duration": 1.3
+            },
+            {
+              "name": ".spread() - spread an array as individual args to callback function",
+              "status": "passed",
+              "duration": 1.2
+            },
+            {
+              "name": "invokes a callback function with the current subject",
+              "status": "passed",
+              "duration": 1.23
+            },
+            {
+              "name": "yields the returned value to the next command",
+              "status": "passed",
+              "duration": 1.12
+            },
+            {
+              "name": "yields the original subject without return",
+              "status": "passed",
+              "duration": 1.1
+            },
+            {
+              "name": "yields the value yielded by the last Cypress command inside",
+              "status": "passed",
+              "duration": 1.11
+            }
+          ]
+        }
+      ]
+    },
+    "cookies.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:32:16.134Z",
+            "duration": 17.817,
+            "total_tests": 7,
+            "passed": 7,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/9bed0ce4-c497-450d-b40c-f8f01d8bbcb7_9437",
+          "public_url": "",
+          "tests": [
+            {
+              "name": "cy.getCookie() - get a browser cookie",
+              "status": "passed",
+              "duration": 2.06
+            },
+            {
+              "name": "cy.getCookies() - get browser cookies for the current domain",
+              "status": "passed",
+              "duration": 6.39
+            },
+            {
+              "name": "cy.getAllCookies() - get all browser cookies",
+              "status": "passed",
+              "duration": 1.97
+            },
+            {
+              "name": "cy.setCookie() - set a browser cookie",
+              "status": "passed",
+              "duration": 1.59
+            },
+            {
+              "name": "cy.clearCookie() - clear a browser cookie",
+              "status": "passed",
+              "duration": 1.8
+            },
+            {
+              "name": "cy.clearCookies() - clear browser cookies for the current domain",
+              "status": "passed",
+              "duration": 1.82
+            },
+            {
+              "name": "cy.clearAllCookies() - clear all browser cookies",
+              "status": "passed",
+              "duration": 2.03
+            }
+          ]
+        }
+      ]
+    },
+    "cypress_api.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 0,
+        "failed": 1,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:32:39.038Z",
+            "duration": 13.788,
+            "total_tests": 10,
+            "passed": 9,
+            "failed": 1,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "failed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/9bed0ce4-c497-450d-b40c-f8f01d8bbcb7_9438",
+          "public_url": "",
+          "tests": [
+            {
+              "name": ".add() - create a custom command",
+              "status": "passed",
+              "duration": 1.49
+            },
+            {
+              "name": ".debug() - enable or disable debugging",
+              "status": "passed",
+              "duration": 2.05
+            },
+            {
+              "name": "Get CPU architecture name of underlying OS",
+              "status": "passed",
+              "duration": 1.11
+            },
+            {
+              "name": "Get and set configuration options",
+              "status": "failed",
+              "duration": 1.76
+            },
+            {
+              "name": ".isHidden() - determine if a DOM element is hidden",
+              "status": "passed",
+              "duration": 1.27
+            },
+            {
+              "name": "Get environment variables",
+              "status": "passed",
+              "duration": 1.27
+            },
+            {
+              "name": "Control what is printed to the Command Log",
+              "status": "passed",
+              "duration": 1.08
+            },
+            {
+              "name": "Get underlying OS name",
+              "status": "passed",
+              "duration": 1.28
+            },
+            {
+              "name": "Get current version of Cypress being run",
+              "status": "passed",
+              "duration": 1.18
+            },
+            {
+              "name": "Get current spec information",
+              "status": "passed",
+              "duration": 1.09
+            }
+          ]
+        }
+      ]
+    },
+    "window.cy.js": {
+      "path": "cypress/e2e/2-advanced-examples",
+      "meta": {
+        "total": 1,
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "passed_with_skipped": 0
+      },
+      "sessions": [
+        {
+          "meta": {
+            "started_at": "2025-02-14T10:30:40.171Z",
+            "duration": 5.775,
+            "total_tests": 3,
+            "passed": 3,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0
+          },
+          "name": "webkit 18, linux",
+          "status": "passed",
+          "link": "https://grid-devhst.bsstag.com/dashboard/builds/cc9c992859f64a2898a16551bd90ab8d/cypress-tests/tests/0918835d-a87b-4480-8f46-5742924c2b31_9439",
+          "public_url": "",
+          "tests": [
+            {
+              "name": "cy.window() - get the global window object",
+              "status": "passed",
+              "duration": 2.5
+            },
+            {
+              "name": "cy.document() - get the document object",
+              "status": "passed",
+              "duration": 1.51
+            },
+            {
+              "name": "cy.title() - get the title",
+              "status": "passed",
+              "duration": 1.63
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

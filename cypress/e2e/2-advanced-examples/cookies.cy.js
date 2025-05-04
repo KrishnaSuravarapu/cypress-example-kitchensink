@@ -4,7 +4,7 @@ context('Cookies', () => {
   beforeEach(() => {
     Cypress.Cookies.debug(true)
 
-    cy.visit('http://localhost:8080/commands/cookies')
+    cy.visit('https://example.cypress.io/commands/cookies')
 
     // clear cookies again after visiting to remove
     // any 3rd party cookies picked up such as cloudflare
@@ -22,6 +22,7 @@ context('Cookies', () => {
   it('cy.getCookies() - get browser cookies for the current domain', () => {
     // https://on.cypress.io/getcookies
     cy.getCookies().should('be.empty')
+    cy.screenshot();
 
     cy.get('#getCookies .set-a-cookie').click()
 
