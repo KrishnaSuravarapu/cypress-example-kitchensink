@@ -6,8 +6,6 @@
 #
 name: Cypress parallel tests
 
-on: [push, workflow_dispatch]
-
 jobs:
   install:
     name: Install NPM and Cypress
