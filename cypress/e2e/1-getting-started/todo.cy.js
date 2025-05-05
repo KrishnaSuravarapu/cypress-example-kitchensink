@@ -129,7 +129,6 @@ describe('example to-do app', () => {
       // so this command is implicitly verifying that it does exist.
       // Second, it selects the button so we can click it.
       cy.contains('Clear completed').click()
-      cy.wait(100000)
 
       // Then we can make sure that there is only one element
       // in the list and our element does not exist

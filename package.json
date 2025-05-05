@@ -56,7 +56,9 @@
   },
   "homepage": "https://github.com/cypress-io/cypress-example-kitchensink#readme",
   "dependencies": {
+    "@nx/workspace": "20.8.1",
     "browserstack-cypress-cli": "file:../browserstack-cypress-cli",
+    "cypress-cloud": "1.13.0",
     "npm-run-all": "^4.1.2",
     "serve": "14.2.1"
   },
@@ -74,10 +76,10 @@
     "globby": "11.1.0",
     "husky": "8.0.3",
     "netlify-plugin-cypress": "2.2.1",
+    "nx": "20.8.1",
     "semantic-release": "19.0.5",
     "start-server-and-test": "2.0.3",
-    "yaml-lint": "1.7.0",
-    "nx": "20.8.1"
+    "yaml-lint": "1.7.0"
   },
   "engines": {
     "node": "^18.0.0 || >=20.0.0"
