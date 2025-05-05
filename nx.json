@@ -1,5 +1,13 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "defaultBase": "master",
-  "nxCloudId": "681770882eda794b8d066790"
+  "nxCloudId": "681770882eda794b8d066790",
+  "namedInputs": {
+    "sharedGlobals": [
+      "{workspaceRoot}/.github/workflows/nx.yml"
+    ],
+    "default": [
+      "sharedGlobals"
+    ]
+  }
 }

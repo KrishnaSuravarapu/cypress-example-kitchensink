@@ -3,7 +3,6 @@ module.exports = defineConfig({
   projectId: "abcsdasd",
   experimentalWebKitSupport: true,
   video: true,
-  retries: 2,
   headless: false,
   e2e: {
     baseUrl: "https://example.cypress.io",
