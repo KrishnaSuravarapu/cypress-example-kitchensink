@@ -6,6 +6,7 @@ module.exports = defineConfig({
   headless: false,
   e2e: {
     baseUrl: "https://example.cypress.io",
+    ciWebServerCommand: 'nx run my-project:serve-static',
     setupNodeEvents(on, config) {
       // implement node event listeners here
     }

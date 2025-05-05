@@ -2,6 +2,18 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "defaultBase": "master",
   "nxCloudId": "681770882eda794b8d066790",
+  "useInferencePlugins": true,
+  "targetDefaults": {
+    "build": {
+      "cache": true
+    },
+    "test": {
+      "cache": true
+    },
+    "e2e": {
+      "cache": true
+    }
+  },
   "namedInputs": {
     "sharedGlobals": [
       "{workspaceRoot}/.github/workflows/nx.yml"
@@ -9,5 +21,16 @@
     "default": [
       "sharedGlobals"
     ]
-  }
+  },
+  "plugins": [
+    {
+      "plugin": "@nx/cypress/plugin",
+      "options": {
+        "targetName": "cypress:e2e",
+        "openTargetName": "open-cypress",
+        "componentTestingTargetName": "component-test",
+        "ciTargetName": "e2e-ci"
+      }
+    }
+  ]
 }
