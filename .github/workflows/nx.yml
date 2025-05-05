@@ -1,10 +1,6 @@
 name: nx
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
+on: [push, workflow_dispatch]
 
 permissions:
   actions: read
